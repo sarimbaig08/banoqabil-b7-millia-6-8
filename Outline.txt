@@ -1,0 +1,33 @@
+WEBSITES:
+
+Html -> structure, grey structure, web content
+
+Css -> styling, font color, weight, size, assets placement, theme
+
+Js -> functionality of the website, logics
+
+
+website types: Static & Dynamic
+
+A Web app is divided into 2 parts
+
+1: Frontend ( client side, web view, ui )
+
+2: Backend ( server side, business logics)
+
+-Server is further divided into 2 parts
+
+2.1: Server
+2.2: Database
+
+
+Slack
+Linkedin
+Github
+
+HTML:
+
+-Tags and elements
+
+Tag=>  <html> 
+Element=>  <html></html>
