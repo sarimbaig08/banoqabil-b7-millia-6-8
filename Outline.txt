@@ -31,3 +31,20 @@ HTML:
 
 Tag=>  <html> 
 Element=>  <html></html>
+
+
+-HTML basic tags
+-Lists
+-Anchor tag
+-Folder structure
+
+-Images
+-Input fields
+-Meta tags
+-Iframes
+-Videos & Audios
+
+TOPICS TO BE COVERED:
+-> Html Tables
+-> Form Handling and Submission
+
