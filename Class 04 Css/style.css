@@ -1,0 +1,47 @@
+*{
+    /* color: yellow; */
+    /* box-sizing: border-box; */
+}
+
+/* .para2{
+color: blueviolet;
+} */
+
+.para{
+    color: rgba(0, 0, 255, 0.613);
+    background: #aaad56b8;
+    font-size: 50px;
+    font-weight: 100px;
+    text-align: right;
+}
+
+.custom-font{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* 
+div{
+    height: 100px;
+    width: 600px;
+    background-color: blue;
+} */
+
+.container{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    padding: 50px;
+    background-color: aqua;
+    border: 50px dashed black;
+    /* outline: 2px solid yellow; */
+}
+
+.container2{
+    height: 200px;
+    width: 200px;
+    margin: 50px;
+    padding: 10px;
+    background-color: aqua;
+    border: 50px dashed black;
+    box-sizing: border-box;
+    /* outline: 2px solid yellow; */
+}

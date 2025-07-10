@@ -48,3 +48,11 @@ TOPICS TO BE COVERED:
 -> Html Tables
 -> Form Handling and Submission
 
+
+INTRODUCTION TO CSS:
+
+-Internal, External & Inline
+-Basic Selectors
+-Borders & Outlines
+-Margin & Paddings
+-Box sizing: border box
