@@ -56,3 +56,9 @@ INTRODUCTION TO CSS:
 -Borders & Outlines
 -Margin & Paddings
 -Box sizing: border box
+
+-Box Modal
+-List Styling
+-Min Height
+-Display properties
+-Overflow
