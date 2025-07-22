@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* section{
+    height: 100vh;
+    background-color: rgb(224, 224, 224);
+} */
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: rgb(224, 224, 224);
+    height: 500px;
+
+}
+
+.container div{
+height: 100px;
+width: 100px;
+background-color: navy;
+/* margin: 10px; */
+}
