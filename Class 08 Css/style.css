@@ -1,0 +1,40 @@
+
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+}
+
+
+table tr:first-child{
+background-color: rgb(113, 113, 113) !important;
+color: whitesmoke;
+}
+
+table tr:nth-child(odd){
+    background-color:  rgb(217, 217, 217);
+}
+
+table tr:hover{
+   background-color: rgb(182, 182, 182);
+   cursor: pointer;
+}
+
+table th{
+    padding: 5px 10px;
+}
+
+table td{
+       padding: 5px 10px;
+    text-align: center;
+}
+
+table td div img{
+    border-radius: 100px;
+}
+
+table td div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
