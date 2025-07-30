@@ -67,3 +67,5 @@ INTRODUCTION TO CSS:
 -> Flexbox
 -> Pseudo class( :first-child, :last-child, :hover, nth-child)
 -> Tables
+
+-> Positioning: Absolute, Relative, Fixed, Sticky
