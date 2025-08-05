@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        h1{
+            text-align: center;
+        }
+
+        img{
+            display: none;
+        }
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container div{
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            margin: 5px;
+        }
+
+        @media (min-width: 678px){
+            
+            img{
+            display: block;
+        }
+
+            .container{
+                flex-direction: row;
+            }
+
+            .container div{
+                background-color: blue;
+                border-radius: 20px;
+            }
+
+        }
+
+        @media (min-width: 1024px){
+            .container div{
+                background-color: rgb(17, 17, 82);
+                height: 300px;
+                width: 300px;
+            }
+            h1{
+                font-size: 50px;
+            }
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <h1>Media Queries</h1>
+    <!-- responsive websites -->
+
+    <img src="https://t4.ftcdn.net/jpg/02/01/78/01/360_F_201780104_hetXS26W8alnsbDKbpnr4sVizJfiO12w.jpg" alt="">
+
+    <div class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+</html>
