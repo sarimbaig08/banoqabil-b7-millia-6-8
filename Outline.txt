@@ -69,3 +69,5 @@ INTRODUCTION TO CSS:
 -> Tables
 
 -> Positioning: Absolute, Relative, Fixed, Sticky
+
+-> Bootstrap: Colors, Container, container-fluid, breakpoints, grid, padding, margin
