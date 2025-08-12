@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md bg-info-subtle">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOMckIfRjpuIFR2z8H_SfYpwQNW3hz_EGcWQ&s"
+            alt=""
+            height="60"
+            width="60"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Courses
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">React js</a></li>
+                <li><a class="dropdown-item" href="#">Advance Python</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <br />
+    <div class="card">
+      <img src="..." class="card-img-top" alt="..." />
+
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card’s content.
+        </p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
+    <div class="card" aria-hidden="true">
+      <img src="..." class="card-img-top" alt="..." />
+      <div class="card-body">
+        <h5 class="card-title placeholder-glow">
+          <span class="placeholder col-6"></span>
+        </h5>
+        <p class="card-text placeholder-glow">
+          <span class="placeholder col-7"></span>
+          <span class="placeholder col-4"></span>
+          <span class="placeholder col-4"></span>
+          <span class="placeholder col-6"></span>
+          <span class="placeholder col-8"></span>
+        </p>
+        <a
+          class="btn btn-primary disabled placeholder col-6"
+          aria-disabled="true"
+        ></a>
+      </div>
+    </div>
+    <br />
+    <br />
+
+    <h1 class="bg-danger">Hello, world!</h1>
+    <button class="btn btn-success">Submit</button>
+    <button type="button" class="btn btn-outline-warning">Warning</button>
+
+    <div class="card" style="width: 20rem">
+      <img
+        src="https://deeds.pk/cdn/shop/files/New-Winter-Men-s-Hooded-Parkas-Windbreaker-Fashion-Thermal-Coats-Mens-Thick-Warm-Glossy-Black-Jackets_jpg_640x640_jpg.webp?v=1737463407"
+        class="card-img-top"
+        alt="..."
+        height="200"
+      />
+      <div class="card-body">
+        <h5 class="card-title fs-1">Black Mens Jacket</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make up the
+          bulk of the card’s content.
+        </p>
+        <!-- <a href="#" class="btn btn-info">Add to Cart</a>
+        <a href="#" class="btn btn-info">Buy Now</a> -->
+        <!-- Button trigger modal -->
+        <button
+          type="button"
+          class="btn btn-info"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+        >
+          Buy Now
+        </button>
+      </div>
+    </div>
+
+    <!-- Carousal -->
+
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide m-auto"
+      data-bs-ride="carousel"
+      style="width: 50rem"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img
+            src="https://png.pngtree.com/thumb_back/fh260/background/20230411/pngtree-nature-forest-sun-ecology-image_2256183.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/036/184/847/small_2x/ai-generated-nature-landscapes-background-free-photo.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="https://static.vecteezy.com/system/resources/thumbnails/057/047/713/small_2x/beautiful-natural-background-image-number-1-photo.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <!-- <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button> -->
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">
+              Purchase Confirmation
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+            dolore.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-danger"
+              data-bs-dismiss="modal"
+            >
+              Cancel
+            </button>
+            <button type="button" class="btn btn-success">Proceed</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Real card (shows when data is loaded) -->
+    <div class="card" id="realCard" style="display: none">
+      <img
+        src="https://via.placeholder.com/300x180"
+        class="card-img-top"
+        alt="Product Image"
+      />
+      <div class="card-body">
+        <h5 class="card-title">Wireless Headphones</h5>
+        <p class="card-text">
+          High-quality noise-cancelling headphones with 20-hour battery life.
+        </p>
+        <a href="#" class="btn btn-primary">Buy Now</a>
+      </div>
+    </div>
+
+    <!-- Placeholder card (shows while loading) -->
+    <div class="card" id="placeholderCard" aria-hidden="true">
+      <img
+        src="https://via.placeholder.com/300x180"
+        class="card-img-top"
+        alt=""
+      />
+      <div class="card-body">
+        <h5 class="card-title placeholder-glow">
+          <span class="placeholder col-6"></span>
+        </h5>
+        <p class="card-text placeholder-glow">
+          <span class="placeholder col-7"></span>
+          <span class="placeholder col-4"></span>
+          <span class="placeholder col-4"></span>
+          <span class="placeholder col-6"></span>
+          <span class="placeholder col-8"></span>
+        </p>
+        <a
+          class="btn btn-primary disabled placeholder col-6"
+          aria-disabled="true"
+        ></a>
+      </div>
+    </div>
+
+    <script>
+      // Simulate API loading
+      setTimeout(() => {
+        document.getElementById("placeholderCard").style.display = "none";
+        document.getElementById("realCard").style.display = "block";
+      }, 2000); // 2-second delay
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
