@@ -71,3 +71,17 @@ INTRODUCTION TO CSS:
 -> Positioning: Absolute, Relative, Fixed, Sticky
 
 -> Bootstrap: Colors, Container, container-fluid, breakpoints, grid, padding, margin
+
+JAVASCRIPT
+
+-> Introduction to js
+-> console.log
+-> Data types
+-> Variable declaration
+
+-> Var, Let, Const
+
+//  value re-assignment |  variable re-declaration
+// var:  true           |           true
+// let:  true           |           false
+// const: false         |           false
