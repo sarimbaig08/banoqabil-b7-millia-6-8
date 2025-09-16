@@ -85,3 +85,33 @@ JAVASCRIPT
 // var:  true           |           true
 // let:  true           |           false
 // const: false         |           false
+
+
+-> Arthemetic Operators
+-> Assignment Operators
+-> Legal and illegal variable names
+
+      //illegal variables
+      // #name special chac can't be used in start and middle except $ _
+      // 2name can't use number in start
+      // can't use js reserved words
+      // can't give space between variable
+
+-> Comparision Operators
+-> Logical Operators
+
+-> Array
+-> For Loops
+
+-> Objects
+-> Functions
+-> Js Promises
+-> Api Calls
+
+    fetch('https://api.example.com/data')
+      .then(response => response.json()) // Parse the response body as JSON
+      .then(data => console.log(data))
+      .catch(error => console.error('Error fetching data:', error));
+
+-> Asyncronous api calls
+-> Firebase
